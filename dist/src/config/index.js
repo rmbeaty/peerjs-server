@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const defaultConfig = {
     port: 9000,
-    expire_timeout: 5000,
-    alive_timeout: 60000,
+    expire_timeout: 10000,
+    alive_timeout: 120000,
     key: "peerjs",
     path: "/",
     concurrent_limit: 5000,
